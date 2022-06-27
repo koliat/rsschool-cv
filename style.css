@@ -4,20 +4,98 @@ body {
 }
 
 header {
-   background-color: blanchedalmond;
-   padding: 10px;
+   background-color: #F9D55F;
+   padding: 20px;
 }
 
 .list {
    display: flex;
    justify-content: end;
    font-size: 18px;
+
 }
 
 a {
-   margin-right: 60px;
+   margin-right: 40px;
    text-decoration: none;
    list-style-type: none;
    color: black;
+}
 
+.photo {
+   margin-top: 10px;
+   height: 170px;
+   width: 170px;
+   border-radius: 50%;
+}
+
+.logo {
+   margin-top: 35px;
+}
+
+.description {
+   display: flex;
+   justify-content: space-around;
+
+
+}
+
+.wrapper {
+   margin-left: 50px;
+   margin-right: 50px;
+
+
+}
+
+.big_hr {
+   height: 3px;
+   background-color: gray;
+}
+
+.container {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-gap: 10px;
+}
+
+.item {
+   padding: 10px;
+
+}
+
+
+footer {
+   padding: 20px;
+
+   background-color: bisque;
+}
+
+h2 {
+   margin-left: 20px;
+}
+
+span,
+h2 {
+   color: green
+}
+
+li {
+   list-style-type: square;
+
+}
+
+footer {
+   background-color: #F9D55F;
+}
+
+.footer__wrapper {
+   display: flex;
+   justify-content: space-between;
+   margin-left: 30px;
+   margin-right: 30px;
+}
+
+.school__logo {
+   width: 50px;
+   height: 50px;
 }
